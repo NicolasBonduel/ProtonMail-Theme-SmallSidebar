@@ -1,0 +1,53 @@
+#main {
+    left : 3rem !important;
+}
+
+#sidebar {
+    font-size:0;
+    width: 3rem;
+    background-color: #555 !important;
+    transition-property: width,font-size,background-color,transition-delay;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+#sidebar:hover {
+    width:10rem;
+    font-size:13px;
+    background-color: #333 !important;
+    transition-delay: 1s;
+}
+
+#sidebar ul li a span {
+    color: white;
+}
+
+#sidebar ul.menu li a.active span {
+    color: #DDDDDD;
+}
+
+#sidebar ul.menu li a.active .fa {
+    font-size:22px;
+}
+
+#sidebar ul.menu li a.active {
+    background: none;
+}
+
+#sidebar .storage {
+    left: 461px !important;
+    background:none !important;
+    height: 37px;
+}
+
+#compose_button a {
+    background: none repeat scroll 0% 0% !important;
+}
+
+#mobilelogo {
+    display: none;
+}
+
+#sidebar .divider {
+    display: none;
+}
