@@ -1,10 +1,10 @@
 #main {
     left: 3rem !important;
-	margin-left: auto !important;
+    margin-left: auto !important;
 }
 
 #compose_button a {
-	transition: none;
+    transition: none;
 }
 
 #sidebar {
@@ -17,7 +17,7 @@
 }
 
 #page-m #footer, #page-m #main {
-	margin-left: 3rem !important;
+    margin-left: 3rem !important;
 }
 
 #sidebar:hover {
