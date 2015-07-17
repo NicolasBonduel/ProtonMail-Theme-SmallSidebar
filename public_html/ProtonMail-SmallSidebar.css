@@ -1,5 +1,10 @@
 #main {
-    left : 3rem !important;
+    left: 3rem !important;
+	margin-left: auto !important;
+}
+
+#compose_button a {
+	transition: none;
 }
 
 #sidebar {
@@ -8,14 +13,18 @@
     background-color: #555 !important;
     transition-property: width,font-size,background-color,transition-delay;
     transition-duration: 0.5s;
-    transition-delay: 0s;
+    transition-delay: 0.5s;
+}
+
+#page-m #footer, #page-m #main {
+	margin-left: 3rem !important;
 }
 
 #sidebar:hover {
     width:10rem;
     font-size:13px;
     background-color: #333 !important;
-    transition-delay: 1s;
+    transition-delay: 0s;
 }
 
 #sidebar ul li a span {
